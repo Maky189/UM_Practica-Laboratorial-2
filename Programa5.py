@@ -3,13 +3,12 @@ def remove_repetidos(lista):
     
     while i >= 0:
         j = i - 1
-        
         while j >= 0:
             if lista[j] == lista[i]:
                 del lista[i]
                 break
-            j -= 1
-        
+            else:
+                j -= 1
         i -= 1
     
     print(lista)
