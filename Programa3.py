@@ -6,8 +6,7 @@ def parte(lista, e):
             parte2.append(lista[i])
         else:
             parte1.append(lista[i])
-    print(parte1)
-    print(parte2)
+    nova_lista[parte1, parte2]
     
     
 lista = []
